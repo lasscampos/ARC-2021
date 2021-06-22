@@ -421,3 +421,7 @@
 2021-06-22 03:05:48,657 DEBUG    errbot.core               Triggering callback_presence on Utils.
 2021-06-22 03:05:48,657 DEBUG    errbot.core               Triggering callback_presence on Backup.
 2021-06-22 03:05:48,657 DEBUG    errbot.core               Triggering callback_presence on Example.
+2021-06-22 03:08:59,914 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2021-06-22 03:08:59,918 INFO     errbot.bootstrap          Found Backend plugin: Text
+2021-06-22 03:08:59,918 DEBUG    errbot.storage            Opening storage 'repomgr'
+2021-06-22 03:08:59,919 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/repomgr.db
