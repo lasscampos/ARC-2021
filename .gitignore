@@ -1,3 +1,6 @@
+#arquivos internos do errbot
+data/
+
 .DS_Store
 applet
 application.linux-arm64
