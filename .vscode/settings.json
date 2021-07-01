@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/gitpod/.pyenv/versions/3.8.10/bin/python"
+    "python.pythonPath": "/home/gitpod/.pyenv/shims/python",
+    "python.defaultInterpreterPath": "venv/bin/python"
 }
