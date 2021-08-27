@@ -38,4 +38,4 @@ async def on_message(message):
         if(choice == 2):
             await canal.send(user + "Você ta morto")
 
-client.run("ODY0NTI0Nzg3MjY2MzU1MjEw.YO2tcw.dxizkll2qe8Oi328msLLb5hnHhM")
+client.run("ODY0NTI0Nzg3MjY2MzU1MjEw.YO2tcw.B1V-K7ltkjQhwwVZJiI5DVHGa5c")
