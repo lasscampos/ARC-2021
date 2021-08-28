@@ -13,4 +13,4 @@ BOT_EXTRA_PLUGIN_DIR = r'/workspace/ARC-2021/plugins'
 BOT_LOG_FILE = r'/workspace/ARC-2021/errbot.log'
 BOT_LOG_LEVEL = logging.DEBUG
 
-BOT_ADMINS = ('@CHANGE_ME', )  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!
+BOT_ADMINS = ('@CHANGE_ME', )  # !! Don'

@@ -1,9 +1,9 @@
 [Core]
-Name = Roleta
-Module = Roleta
+Name = Example
+Module = example
 
 [Documentation]
-Description = Jogo de roleta baseado em texto
+Description = classe de esperimentação de programação.
 
 [Python]
-Version = 3
+Version = 2+
