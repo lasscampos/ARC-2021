@@ -1,0 +1,9 @@
+[Core]
+Name = Main
+Module = main
+
+[Documentation]
+Description = Roleta russa
+
+[Python]
+Version = 3

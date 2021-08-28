@@ -14,7 +14,7 @@ BOT_PREFIX_OPTIONAL_ON_CHAT = True
 
 BOT_DATA_DIR = r'data'
 BOT_EXTRA_PLUGIN_DIR = r'plugins'
-BOT_EXTRA_BACKEND_DIR= r'backend'
+BOT_EXTRA_BACKEND_DIR= r'err-backend-discord'
 
 BOT_LOG_FILE = r'errbot.log'
 BOT_LOG_LEVEL = logging.DEBUG
