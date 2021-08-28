@@ -1,4 +1,4 @@
 tasks: 
  - init: pip install -requirements.txt
- - command: errbot --init
+ 
  

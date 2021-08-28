@@ -4,17 +4,17 @@ from random import randint
 
 class Dados(BotPlugin):
     """
-    Rolar os dados para suporte a jogos de RPG de mesa
-    Tem o rolar de n dados com m faces, entre outros comandos
+    Rolar os dados para suporte a jogos de RPG de mesa.
+    Tem o rolar de n dados com m faces, entre outros comandos.
     """
 
-    @botcmd (split_args_with=' ')
+    @botcmd(split_args_with=' ')
     def rolar(self, msg, args):
         """
         Informar quantos dados e faces.
         Forma de usar:
         !rolar <dados> <faces>
-        !rolar <dados> <faces>
+        onde <dados> e <faces> são números inteiros.
         """
 
         try:

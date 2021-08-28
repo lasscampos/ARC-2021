@@ -1,9 +1,0 @@
-[Core]
-Name = Example
-Module = example
-
-[Documentation]
-Description = classe de esperimentação de programação.
-
-[Python]
-Version = 2+

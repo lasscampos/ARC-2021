@@ -1,11 +1,5 @@
-# Arquivos de SO
-.DS_Store
-
-# Informações sensíveis do Errbot, como token do Discord
-.env
-
-# Arquivos internos do Errbot
-data/
+# Arquivos internos do ERRBOT
+data/   
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
