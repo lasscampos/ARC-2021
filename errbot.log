@@ -3665,3 +3665,485 @@ IndentationError: expected an indented block
 2021-08-28 19:02:39,664 DEBUG    errbot.core               Triggering callback_message on Utils.
 2021-08-28 19:02:39,664 DEBUG    errbot.core               Triggering callback_message on Dados.
 2021-08-28 19:02:39,664 DEBUG    errbot.core               Triggering callback_message on Example.
+2021-08-28 20:41:33,091 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2021-08-28 20:41:33,101 INFO     errbot.bootstrap          Found Backend plugin: Text
+2021-08-28 20:41:33,101 DEBUG    errbot.storage            Opening storage 'repomgr'
+2021-08-28 20:41:33,101 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/repomgr.db
+2021-08-28 20:41:33,251 DEBUG    errbot.core               ErrBot init.
+2021-08-28 20:41:33,251 DEBUG    errbot.backends.base      Backend init.
+2021-08-28 20:41:33,258 DEBUG    errbot.core               created a thread pool of size 10.
+2021-08-28 20:41:33,260 DEBUG    errbot.backends.text      Text Backend Init.
+2021-08-28 20:41:33,260 DEBUG    errbot.backends.text      Bot username set at @errbot.
+2021-08-28 20:41:33,263 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2021-08-28 20:41:33,264 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2021-08-28 20:41:33,264 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2021-08-28 20:41:33,265 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2021-08-28 20:41:33,266 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2021-08-28 20:41:33,267 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2021-08-28 20:41:33,267 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+2021-08-28 20:41:33,268 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2021-08-28 20:41:33,268 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2021-08-28 20:41:33,282 DEBUG    errbot.storage            Opening storage 'core'
+2021-08-28 20:41:33,282 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/core.db
+2021-08-28 20:41:33,303 DEBUG    errbot.core               Initializing backend storage
+2021-08-28 20:41:33,303 DEBUG    errbot.storage            Opening storage 'text_backend'
+2021-08-28 20:41:33,304 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/text_backend.db
+2021-08-28 20:41:33,322 DEBUG    errbot.plugin_manager     New entries added to sys.path:
+2021-08-28 20:41:33,323 DEBUG    errbot.plugin_manager     /workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins
+2021-08-28 20:41:33,323 DEBUG    errbot.plugin_manager     /workspace/ARC-2021/plugins/dados
+2021-08-28 20:41:33,323 DEBUG    errbot.plugin_manager     /workspace/ARC-2021/plugins/err-example
+2021-08-28 20:41:33,324 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2021-08-28 20:41:33,325 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2021-08-28 20:41:33,326 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2021-08-28 20:41:33,327 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2021-08-28 20:41:33,330 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2021-08-28 20:41:33,332 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2021-08-28 20:41:33,333 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2021-08-28 20:41:33,334 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2021-08-28 20:41:33,335 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2021-08-28 20:41:33,336 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2021-08-28 20:41:33,426 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2021-08-28 20:41:33,572 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2021-08-28 20:41:33,573 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2021-08-28 20:41:33,575 DEBUG    errbot.plugins.Dados      Logger for plugin initialized...
+2021-08-28 20:41:33,577 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2021-08-28 20:41:33,577 DEBUG    errbot.bootstrap          Start serving commands from the text backend.
+2021-08-28 20:41:33,581 INFO     errbot.core               Activate internal commands
+2021-08-28 20:41:33,581 INFO     errbot.plugin_manager     Activate bot plugins...
+2021-08-28 20:41:33,581 INFO     errbot.plugin_manager     Activate plugin: ACLs.
+2021-08-28 20:41:33,582 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,582 DEBUG    errbot.botplugin          Init storage for ACLs.
+2021-08-28 20:41:33,582 DEBUG    errbot.storage            Opening storage 'ACLs'
+2021-08-28 20:41:33,582 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/ACLs.db
+2021-08-28 20:41:33,599 DEBUG    errbot.core               Adding command filter: acls
+2021-08-28 20:41:33,599 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2021-08-28 20:41:33,600 INFO     errbot.plugin_manager     Activate plugin: Backup.
+2021-08-28 20:41:33,600 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,600 DEBUG    errbot.botplugin          Init storage for Backup.
+2021-08-28 20:41:33,600 DEBUG    errbot.storage            Opening storage 'Backup'
+2021-08-28 20:41:33,600 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Backup.db
+2021-08-28 20:41:33,617 DEBUG    errbot.core               Adding command : backup -> backup.
+2021-08-28 20:41:33,617 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2021-08-28 20:41:33,617 INFO     errbot.plugin_manager     Activate plugin: ChatRoom.
+2021-08-28 20:41:33,617 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,617 DEBUG    errbot.botplugin          Init storage for ChatRoom.
+2021-08-28 20:41:33,618 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2021-08-28 20:41:33,618 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/ChatRoom.db
+2021-08-28 20:41:33,633 DEBUG    errbot.core               Adding command : room_create -> room_create.
+2021-08-28 20:41:33,633 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy.
+2021-08-28 20:41:33,633 DEBUG    errbot.core               Adding command : room_invite -> room_invite.
+2021-08-28 20:41:33,633 DEBUG    errbot.core               Adding command : room_join -> room_join.
+2021-08-28 20:41:33,634 DEBUG    errbot.core               Adding command : room_leave -> room_leave.
+2021-08-28 20:41:33,634 DEBUG    errbot.core               Adding command : room_list -> room_list.
+2021-08-28 20:41:33,634 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants.
+2021-08-28 20:41:33,634 DEBUG    errbot.core               Adding command : room_topic -> room_topic.
+2021-08-28 20:41:33,634 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2021-08-28 20:41:33,634 INFO     errbot.plugins.ChatRoom   Connecting bot chatrooms
+2021-08-28 20:41:33,634 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter.
+2021-08-28 20:41:33,634 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,634 DEBUG    errbot.botplugin          Init storage for CommandNotFoundFilter.
+2021-08-28 20:41:33,634 DEBUG    errbot.storage            Opening storage 'CommandNotFoundFilter'
+2021-08-28 20:41:33,635 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/CommandNotFoundFilter.db
+2021-08-28 20:41:33,650 DEBUG    errbot.core               Adding command filter: cnf_filter
+2021-08-28 20:41:33,650 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2021-08-28 20:41:33,650 INFO     errbot.plugin_manager     Activate plugin: Flows.
+2021-08-28 20:41:33,650 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,650 DEBUG    errbot.botplugin          Init storage for Flows.
+2021-08-28 20:41:33,650 DEBUG    errbot.storage            Opening storage 'Flows'
+2021-08-28 20:41:33,650 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Flows.db
+2021-08-28 20:41:33,666 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill.
+2021-08-28 20:41:33,666 DEBUG    errbot.core               Adding command : flows_list -> flows_list.
+2021-08-28 20:41:33,667 DEBUG    errbot.core               Adding command : flows_show -> flows_show.
+2021-08-28 20:41:33,667 DEBUG    errbot.core               Adding command : flows_start -> flows_start.
+2021-08-28 20:41:33,667 DEBUG    errbot.core               Adding command : flows_status -> flows_status.
+2021-08-28 20:41:33,667 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop.
+2021-08-28 20:41:33,667 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2021-08-28 20:41:33,667 INFO     errbot.plugin_manager     Activate plugin: Health.
+2021-08-28 20:41:33,668 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,668 DEBUG    errbot.botplugin          Init storage for Health.
+2021-08-28 20:41:33,668 DEBUG    errbot.storage            Opening storage 'Health'
+2021-08-28 20:41:33,668 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Health.db
+2021-08-28 20:41:33,684 DEBUG    errbot.core               Adding command : restart -> restart.
+2021-08-28 20:41:33,684 DEBUG    errbot.core               Adding command : shutdown -> shutdown.
+2021-08-28 20:41:33,684 DEBUG    errbot.core               Adding command : status -> status.
+2021-08-28 20:41:33,684 DEBUG    errbot.core               Adding command : status_gc -> status_gc.
+2021-08-28 20:41:33,684 DEBUG    errbot.core               Adding command : status_load -> status_load.
+2021-08-28 20:41:33,684 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins.
+2021-08-28 20:41:33,684 DEBUG    errbot.core               Adding command : uptime -> uptime.
+2021-08-28 20:41:33,684 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2021-08-28 20:41:33,685 INFO     errbot.plugin_manager     Activate plugin: Help.
+2021-08-28 20:41:33,685 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,685 DEBUG    errbot.botplugin          Init storage for Help.
+2021-08-28 20:41:33,685 DEBUG    errbot.storage            Opening storage 'Help'
+2021-08-28 20:41:33,685 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Help.db
+2021-08-28 20:41:33,700 DEBUG    errbot.core               Adding command : about -> about.
+2021-08-28 20:41:33,701 DEBUG    errbot.core               Adding command : apropos -> apropos.
+2021-08-28 20:41:33,701 DEBUG    errbot.core               Adding command : help -> help.
+2021-08-28 20:41:33,701 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2021-08-28 20:41:33,701 INFO     errbot.plugin_manager     Activate plugin: Plugins.
+2021-08-28 20:41:33,701 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,701 DEBUG    errbot.botplugin          Init storage for Plugins.
+2021-08-28 20:41:33,701 DEBUG    errbot.storage            Opening storage 'Plugins'
+2021-08-28 20:41:33,701 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Plugins.db
+2021-08-28 20:41:33,716 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate.
+2021-08-28 20:41:33,716 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist.
+2021-08-28 20:41:33,716 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config.
+2021-08-28 20:41:33,716 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate.
+2021-08-28 20:41:33,716 DEBUG    errbot.core               Adding command : plugin_info -> plugin_info.
+2021-08-28 20:41:33,717 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload.
+2021-08-28 20:41:33,717 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist.
+2021-08-28 20:41:33,717 DEBUG    errbot.core               Adding command : repos -> repos.
+2021-08-28 20:41:33,717 DEBUG    errbot.core               Adding command : repos_install -> repos_install.
+2021-08-28 20:41:33,717 DEBUG    errbot.core               Adding command : repos_search -> repos_search.
+2021-08-28 20:41:33,717 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall.
+2021-08-28 20:41:33,717 DEBUG    errbot.core               Adding command : repos_update -> repos_update.
+2021-08-28 20:41:33,717 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2021-08-28 20:41:33,717 INFO     errbot.plugin_manager     Activate plugin: TextCmds.
+2021-08-28 20:41:33,718 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,718 DEBUG    errbot.botplugin          Init storage for TextCmds.
+2021-08-28 20:41:33,718 DEBUG    errbot.storage            Opening storage 'TextCmds'
+2021-08-28 20:41:33,718 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/TextCmds.db
+2021-08-28 20:41:33,734 DEBUG    errbot.core               Adding command : asadmin -> asadmin.
+2021-08-28 20:41:33,734 DEBUG    errbot.core               Adding command : asuser -> asuser.
+2021-08-28 20:41:33,734 DEBUG    errbot.core               Adding command : inperson -> inperson.
+2021-08-28 20:41:33,734 DEBUG    errbot.core               Adding command : inroom -> inroom.
+2021-08-28 20:41:33,734 DEBUG    errbot.core               Adding command : ml -> ml.
+2021-08-28 20:41:33,735 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2021-08-28 20:41:33,735 INFO     errbot.plugin_manager     Activate plugin: Utils.
+2021-08-28 20:41:33,735 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,735 DEBUG    errbot.botplugin          Init storage for Utils.
+2021-08-28 20:41:33,735 DEBUG    errbot.storage            Opening storage 'Utils'
+2021-08-28 20:41:33,735 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Utils.db
+2021-08-28 20:41:33,750 DEBUG    errbot.core               Adding command : echo -> echo.
+2021-08-28 20:41:33,750 DEBUG    errbot.core               Adding command : history -> history.
+2021-08-28 20:41:33,750 DEBUG    errbot.core               Adding command : log_tail -> log_tail.
+2021-08-28 20:41:33,750 DEBUG    errbot.core               Adding command : render_test -> render_test.
+2021-08-28 20:41:33,750 DEBUG    errbot.core               Adding command : whoami -> whoami.
+2021-08-28 20:41:33,750 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2021-08-28 20:41:33,751 INFO     errbot.plugin_manager     Activate plugin: VersionChecker.
+2021-08-28 20:41:33,751 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,751 INFO     errbot.plugins.VersionChecker Skip version checking under text mode.
+2021-08-28 20:41:33,751 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2021-08-28 20:41:33,751 INFO     errbot.plugin_manager     Activate plugin: Webserver.
+2021-08-28 20:41:33,751 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 20:41:33,752 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2021-08-28 20:41:33,752 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2021-08-28 20:41:33,752 INFO     errbot.core_plugins.wsview Webhook routing echo
+2021-08-28 20:41:33,753 INFO     errbot.plugin_manager     Activate plugin: Dados.
+2021-08-28 20:41:33,753 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /workspace/ARC-2021/plugins/dados/templates]
+2021-08-28 20:41:33,753 DEBUG    errbot.botplugin          Init storage for Dados.
+2021-08-28 20:41:33,753 DEBUG    errbot.storage            Opening storage 'Dados'
+2021-08-28 20:41:33,753 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Dados.db
+2021-08-28 20:41:33,768 DEBUG    errbot.core               Adding command : rolar -> rolar.
+2021-08-28 20:41:33,769 INFO     errbot.core_plugins.wsview Checking Dados for webhooks
+2021-08-28 20:41:33,769 INFO     errbot.plugin_manager     Activate plugin: Example.
+2021-08-28 20:41:33,769 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /workspace/ARC-2021/plugins/err-example/templates]
+2021-08-28 20:41:33,769 DEBUG    errbot.botplugin          Init storage for Example.
+2021-08-28 20:41:33,769 DEBUG    errbot.storage            Opening storage 'Example'
+2021-08-28 20:41:33,769 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Example.db
+2021-08-28 20:41:33,782 DEBUG    errbot.core               Adding command : tryme -> tryme.
+2021-08-28 20:41:33,782 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2021-08-28 20:41:33,783 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2021-08-28 20:41:33,783 INFO     errbot.core               Notifying connection to all the plugins...
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on ACLS.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Backup.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on ChatRoom.
+2021-08-28 20:41:33,783 INFO     errbot.plugins.ChatRoom   Connecting bot chatrooms
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on CommandNotFoundFilter.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Flows.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Health.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Help.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Plugins.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on TextModeCmds.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Utils.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Dados.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Trigger callback_connect on Example.
+2021-08-28 20:41:33,783 INFO     errbot.core               Plugin activation done.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Triggering callback_presence on ACLs.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Triggering callback_presence on Backup.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Triggering callback_presence on ChatRoom.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Triggering callback_presence on Flows.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Triggering callback_presence on Health.
+2021-08-28 20:41:33,783 DEBUG    errbot.core               Triggering callback_presence on Help.
+2021-08-28 20:41:33,784 DEBUG    errbot.core               Triggering callback_presence on Plugins.
+2021-08-28 20:41:33,784 DEBUG    errbot.core               Triggering callback_presence on TextCmds.
+2021-08-28 20:41:33,784 DEBUG    errbot.core               Triggering callback_presence on Utils.
+2021-08-28 20:41:33,784 DEBUG    errbot.core               Triggering callback_presence on Dados.
+2021-08-28 20:41:33,784 DEBUG    errbot.core               Triggering callback_presence on Example.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on ACLs.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Backup.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on ChatRoom.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Flows.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Health.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Help.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Plugins.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on TextCmds.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Utils.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Dados.
+2021-08-28 21:09:22,635 DEBUG    errbot.core               Triggering callback_presence on Example.
+2021-08-28 21:09:22,635 DEBUG    errbot.backends.text      Trigger disconnect callback
+2021-08-28 21:09:22,635 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2021-08-28 21:09:22,646 DEBUG    errbot.storage            Closed storage 'ACLs'
+2021-08-28 21:09:22,647 DEBUG    errbot.core               Removing command filter: acls
+2021-08-28 21:09:22,654 DEBUG    errbot.storage            Closed storage 'Backup'
+2021-08-28 21:09:22,660 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2021-08-28 21:09:22,666 DEBUG    errbot.storage            Closed storage 'CommandNotFoundFilter'
+2021-08-28 21:09:22,666 DEBUG    errbot.core               Removing command filter: cnf_filter
+2021-08-28 21:09:22,672 DEBUG    errbot.storage            Closed storage 'Flows'
+2021-08-28 21:09:22,678 DEBUG    errbot.storage            Closed storage 'Health'
+2021-08-28 21:09:22,685 DEBUG    errbot.storage            Closed storage 'Help'
+2021-08-28 21:09:22,691 DEBUG    errbot.storage            Closed storage 'Plugins'
+2021-08-28 21:09:22,700 DEBUG    errbot.storage            Closed storage 'TextCmds'
+2021-08-28 21:09:22,706 DEBUG    errbot.storage            Closed storage 'Utils'
+2021-08-28 21:09:22,712 DEBUG    errbot.storage            Closed storage 'Dados'
+2021-08-28 21:09:22,721 DEBUG    errbot.storage            Closed storage 'Example'
+2021-08-28 21:09:22,721 DEBUG    errbot.backends.text      Trigger shutdown
+2021-08-28 21:09:22,736 DEBUG    errbot.storage            Closed storage 'text_backend'
+2021-08-28 21:09:22,737 INFO     errbot.plugin_manager     Shutdown.
+2021-08-28 21:09:22,748 DEBUG    errbot.storage            Closed storage 'core'
+2021-08-28 21:09:22,748 INFO     errbot.plugin_manager     Bye.
+2021-08-28 21:09:22,754 DEBUG    errbot.storage            Closed storage 'repomgr'
+2021-08-28 21:09:22,754 INFO     errbot.cli                Process exiting
+2021-08-28 21:10:20,078 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2021-08-28 21:10:20,083 INFO     errbot.bootstrap          Found Backend plugin: Text
+2021-08-28 21:10:20,083 DEBUG    errbot.storage            Opening storage 'repomgr'
+2021-08-28 21:10:20,083 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/repomgr.db
+2021-08-28 21:10:20,175 DEBUG    errbot.core               ErrBot init.
+2021-08-28 21:10:20,176 DEBUG    errbot.backends.base      Backend init.
+2021-08-28 21:10:20,181 DEBUG    errbot.core               created a thread pool of size 10.
+2021-08-28 21:10:20,183 DEBUG    errbot.backends.text      Text Backend Init.
+2021-08-28 21:10:20,183 DEBUG    errbot.backends.text      Bot username set at @errbot.
+2021-08-28 21:10:20,186 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+2021-08-28 21:10:20,187 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+2021-08-28 21:10:20,187 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+2021-08-28 21:10:20,188 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+2021-08-28 21:10:20,189 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.tables.TableExtension".
+2021-08-28 21:10:20,190 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+2021-08-28 21:10:20,190 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.md_in_html.MarkdownInHtmlExtension".
+2021-08-28 21:10:20,191 DEBUG    MARKDOWN                  Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+2021-08-28 21:10:20,191 DEBUG    MARKDOWN                  Successfully loaded extension "errbot.rendering.ansiext.AnsiExtension".
+2021-08-28 21:10:20,212 DEBUG    errbot.storage            Opening storage 'core'
+2021-08-28 21:10:20,212 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/core.db
+2021-08-28 21:10:20,213 DEBUG    errbot.core               Initializing backend storage
+2021-08-28 21:10:20,213 DEBUG    errbot.storage            Opening storage 'text_backend'
+2021-08-28 21:10:20,213 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/text_backend.db
+2021-08-28 21:10:20,215 DEBUG    errbot.plugin_manager     New entries added to sys.path:
+2021-08-28 21:10:20,215 DEBUG    errbot.plugin_manager     /workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins
+2021-08-28 21:10:20,215 DEBUG    errbot.plugin_manager     /workspace/ARC-2021/plugins/dados
+2021-08-28 21:10:20,216 DEBUG    errbot.plugin_manager     /workspace/ARC-2021/plugins/err-example
+2021-08-28 21:10:20,217 DEBUG    errbot.plugins.ACLs       Logger for plugin initialized...
+2021-08-28 21:10:20,217 DEBUG    errbot.plugins.Backup     Logger for plugin initialized...
+2021-08-28 21:10:20,218 DEBUG    errbot.plugins.ChatRoom   Logger for plugin initialized...
+2021-08-28 21:10:20,219 DEBUG    errbot.plugins.CommandNotFoundFilter Logger for plugin initialized...
+2021-08-28 21:10:20,222 DEBUG    errbot.plugins.Flows      Logger for plugin initialized...
+2021-08-28 21:10:20,224 DEBUG    errbot.plugins.Health     Logger for plugin initialized...
+2021-08-28 21:10:20,225 DEBUG    errbot.plugins.Help       Logger for plugin initialized...
+2021-08-28 21:10:20,226 DEBUG    errbot.plugins.Plugins    Logger for plugin initialized...
+2021-08-28 21:10:20,227 DEBUG    errbot.plugins.TextCmds   Logger for plugin initialized...
+2021-08-28 21:10:20,228 DEBUG    errbot.plugins.Utils      Logger for plugin initialized...
+2021-08-28 21:10:20,283 DEBUG    errbot.plugins.VersionChecker Logger for plugin initialized...
+2021-08-28 21:10:20,380 INFO     errbot                    webhooks:  Flag to bind /echo to echo
+2021-08-28 21:10:20,381 DEBUG    errbot.plugins.Webserver  Logger for plugin initialized...
+2021-08-28 21:10:20,382 DEBUG    errbot.plugins.Dados      Logger for plugin initialized...
+2021-08-28 21:10:20,383 DEBUG    errbot.plugins.Example    Logger for plugin initialized...
+2021-08-28 21:10:20,383 DEBUG    errbot.bootstrap          Start serving commands from the text backend.
+2021-08-28 21:10:20,384 INFO     errbot.core               Activate internal commands
+2021-08-28 21:10:20,384 INFO     errbot.plugin_manager     Activate bot plugins...
+2021-08-28 21:10:20,385 INFO     errbot.plugin_manager     Activate plugin: ACLs.
+2021-08-28 21:10:20,385 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,385 DEBUG    errbot.botplugin          Init storage for ACLs.
+2021-08-28 21:10:20,385 DEBUG    errbot.storage            Opening storage 'ACLs'
+2021-08-28 21:10:20,385 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/ACLs.db
+2021-08-28 21:10:20,386 DEBUG    errbot.core               Adding command filter: acls
+2021-08-28 21:10:20,386 INFO     errbot.core_plugins.wsview Checking ACLS for webhooks
+2021-08-28 21:10:20,386 INFO     errbot.plugin_manager     Activate plugin: Backup.
+2021-08-28 21:10:20,386 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,386 DEBUG    errbot.botplugin          Init storage for Backup.
+2021-08-28 21:10:20,386 DEBUG    errbot.storage            Opening storage 'Backup'
+2021-08-28 21:10:20,386 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Backup.db
+2021-08-28 21:10:20,386 DEBUG    errbot.core               Adding command : backup -> backup.
+2021-08-28 21:10:20,387 INFO     errbot.core_plugins.wsview Checking Backup for webhooks
+2021-08-28 21:10:20,387 INFO     errbot.plugin_manager     Activate plugin: ChatRoom.
+2021-08-28 21:10:20,387 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,387 DEBUG    errbot.botplugin          Init storage for ChatRoom.
+2021-08-28 21:10:20,387 DEBUG    errbot.storage            Opening storage 'ChatRoom'
+2021-08-28 21:10:20,387 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/ChatRoom.db
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_create -> room_create.
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_destroy -> room_destroy.
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_invite -> room_invite.
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_join -> room_join.
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_leave -> room_leave.
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_list -> room_list.
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_occupants -> room_occupants.
+2021-08-28 21:10:20,387 DEBUG    errbot.core               Adding command : room_topic -> room_topic.
+2021-08-28 21:10:20,388 INFO     errbot.core_plugins.wsview Checking ChatRoom for webhooks
+2021-08-28 21:10:20,388 INFO     errbot.plugins.ChatRoom   Connecting bot chatrooms
+2021-08-28 21:10:20,388 INFO     errbot.plugin_manager     Activate plugin: CommandNotFoundFilter.
+2021-08-28 21:10:20,388 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,388 DEBUG    errbot.botplugin          Init storage for CommandNotFoundFilter.
+2021-08-28 21:10:20,388 DEBUG    errbot.storage            Opening storage 'CommandNotFoundFilter'
+2021-08-28 21:10:20,388 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/CommandNotFoundFilter.db
+2021-08-28 21:10:20,388 DEBUG    errbot.core               Adding command filter: cnf_filter
+2021-08-28 21:10:20,388 INFO     errbot.core_plugins.wsview Checking CommandNotFoundFilter for webhooks
+2021-08-28 21:10:20,389 INFO     errbot.plugin_manager     Activate plugin: Flows.
+2021-08-28 21:10:20,389 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,389 DEBUG    errbot.botplugin          Init storage for Flows.
+2021-08-28 21:10:20,389 DEBUG    errbot.storage            Opening storage 'Flows'
+2021-08-28 21:10:20,389 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Flows.db
+2021-08-28 21:10:20,389 DEBUG    errbot.core               Adding command : flows_kill -> flows_kill.
+2021-08-28 21:10:20,389 DEBUG    errbot.core               Adding command : flows_list -> flows_list.
+2021-08-28 21:10:20,389 DEBUG    errbot.core               Adding command : flows_show -> flows_show.
+2021-08-28 21:10:20,389 DEBUG    errbot.core               Adding command : flows_start -> flows_start.
+2021-08-28 21:10:20,389 DEBUG    errbot.core               Adding command : flows_status -> flows_status.
+2021-08-28 21:10:20,389 DEBUG    errbot.core               Adding command : flows_stop -> flows_stop.
+2021-08-28 21:10:20,389 INFO     errbot.core_plugins.wsview Checking Flows for webhooks
+2021-08-28 21:10:20,390 INFO     errbot.plugin_manager     Activate plugin: Health.
+2021-08-28 21:10:20,390 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,390 DEBUG    errbot.botplugin          Init storage for Health.
+2021-08-28 21:10:20,390 DEBUG    errbot.storage            Opening storage 'Health'
+2021-08-28 21:10:20,390 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Health.db
+2021-08-28 21:10:20,390 DEBUG    errbot.core               Adding command : restart -> restart.
+2021-08-28 21:10:20,390 DEBUG    errbot.core               Adding command : shutdown -> shutdown.
+2021-08-28 21:10:20,390 DEBUG    errbot.core               Adding command : status -> status.
+2021-08-28 21:10:20,390 DEBUG    errbot.core               Adding command : status_gc -> status_gc.
+2021-08-28 21:10:20,390 DEBUG    errbot.core               Adding command : status_load -> status_load.
+2021-08-28 21:10:20,390 DEBUG    errbot.core               Adding command : status_plugins -> status_plugins.
+2021-08-28 21:10:20,390 DEBUG    errbot.core               Adding command : uptime -> uptime.
+2021-08-28 21:10:20,390 INFO     errbot.core_plugins.wsview Checking Health for webhooks
+2021-08-28 21:10:20,391 INFO     errbot.plugin_manager     Activate plugin: Help.
+2021-08-28 21:10:20,391 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,391 DEBUG    errbot.botplugin          Init storage for Help.
+2021-08-28 21:10:20,391 DEBUG    errbot.storage            Opening storage 'Help'
+2021-08-28 21:10:20,391 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Help.db
+2021-08-28 21:10:20,391 DEBUG    errbot.core               Adding command : about -> about.
+2021-08-28 21:10:20,391 DEBUG    errbot.core               Adding command : apropos -> apropos.
+2021-08-28 21:10:20,391 DEBUG    errbot.core               Adding command : help -> help.
+2021-08-28 21:10:20,391 INFO     errbot.core_plugins.wsview Checking Help for webhooks
+2021-08-28 21:10:20,392 INFO     errbot.plugin_manager     Activate plugin: Plugins.
+2021-08-28 21:10:20,392 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,392 DEBUG    errbot.botplugin          Init storage for Plugins.
+2021-08-28 21:10:20,392 DEBUG    errbot.storage            Opening storage 'Plugins'
+2021-08-28 21:10:20,392 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Plugins.db
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : plugin_activate -> plugin_activate.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : plugin_blacklist -> plugin_blacklist.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : plugin_config -> plugin_config.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : plugin_deactivate -> plugin_deactivate.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : plugin_info -> plugin_info.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : plugin_reload -> plugin_reload.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : plugin_unblacklist -> plugin_unblacklist.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : repos -> repos.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : repos_install -> repos_install.
+2021-08-28 21:10:20,392 DEBUG    errbot.core               Adding command : repos_search -> repos_search.
+2021-08-28 21:10:20,393 DEBUG    errbot.core               Adding command : repos_uninstall -> repos_uninstall.
+2021-08-28 21:10:20,393 DEBUG    errbot.core               Adding command : repos_update -> repos_update.
+2021-08-28 21:10:20,393 INFO     errbot.core_plugins.wsview Checking Plugins for webhooks
+2021-08-28 21:10:20,393 INFO     errbot.plugin_manager     Activate plugin: TextCmds.
+2021-08-28 21:10:20,393 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,393 DEBUG    errbot.botplugin          Init storage for TextCmds.
+2021-08-28 21:10:20,393 DEBUG    errbot.storage            Opening storage 'TextCmds'
+2021-08-28 21:10:20,393 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/TextCmds.db
+2021-08-28 21:10:20,394 DEBUG    errbot.core               Adding command : asadmin -> asadmin.
+2021-08-28 21:10:20,394 DEBUG    errbot.core               Adding command : asuser -> asuser.
+2021-08-28 21:10:20,394 DEBUG    errbot.core               Adding command : inperson -> inperson.
+2021-08-28 21:10:20,394 DEBUG    errbot.core               Adding command : inroom -> inroom.
+2021-08-28 21:10:20,394 DEBUG    errbot.core               Adding command : ml -> ml.
+2021-08-28 21:10:20,394 INFO     errbot.core_plugins.wsview Checking TextModeCmds for webhooks
+2021-08-28 21:10:20,395 INFO     errbot.plugin_manager     Activate plugin: Utils.
+2021-08-28 21:10:20,395 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,395 DEBUG    errbot.botplugin          Init storage for Utils.
+2021-08-28 21:10:20,395 DEBUG    errbot.storage            Opening storage 'Utils'
+2021-08-28 21:10:20,395 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Utils.db
+2021-08-28 21:10:20,395 DEBUG    errbot.core               Adding command : echo -> echo.
+2021-08-28 21:10:20,395 DEBUG    errbot.core               Adding command : history -> history.
+2021-08-28 21:10:20,395 DEBUG    errbot.core               Adding command : log_tail -> log_tail.
+2021-08-28 21:10:20,395 DEBUG    errbot.core               Adding command : render_test -> render_test.
+2021-08-28 21:10:20,395 DEBUG    errbot.core               Adding command : whoami -> whoami.
+2021-08-28 21:10:20,396 INFO     errbot.core_plugins.wsview Checking Utils for webhooks
+2021-08-28 21:10:20,396 INFO     errbot.plugin_manager     Activate plugin: VersionChecker.
+2021-08-28 21:10:20,396 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,396 INFO     errbot.plugins.VersionChecker Skip version checking under text mode.
+2021-08-28 21:10:20,396 INFO     errbot.core_plugins.wsview Checking VersionChecker for webhooks
+2021-08-28 21:10:20,396 INFO     errbot.plugin_manager     Activate plugin: Webserver.
+2021-08-28 21:10:20,396 DEBUG    errbot.templating         Templates directory found for this plugin [/workspace/.pip-modules/lib/python3.8/site-packages/errbot/core_plugins/templates]
+2021-08-28 21:10:20,396 INFO     errbot.plugins.Webserver  Webserver is not configured. Forbid activation
+2021-08-28 21:10:20,396 INFO     errbot.core_plugins.wsview Checking Webserver for webhooks
+2021-08-28 21:10:20,397 INFO     errbot.core_plugins.wsview Webhook routing echo
+2021-08-28 21:10:20,398 INFO     errbot.plugin_manager     Activate plugin: Dados.
+2021-08-28 21:10:20,398 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /workspace/ARC-2021/plugins/dados/templates]
+2021-08-28 21:10:20,398 DEBUG    errbot.botplugin          Init storage for Dados.
+2021-08-28 21:10:20,398 DEBUG    errbot.storage            Opening storage 'Dados'
+2021-08-28 21:10:20,398 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Dados.db
+2021-08-28 21:10:20,398 DEBUG    errbot.core               Adding command : rolar -> rolar.
+2021-08-28 21:10:20,398 INFO     errbot.core_plugins.wsview Checking Dados for webhooks
+2021-08-28 21:10:20,398 INFO     errbot.plugin_manager     Activate plugin: Example.
+2021-08-28 21:10:20,399 DEBUG    errbot.templating         No templates directory found for this plugin [Looking for /workspace/ARC-2021/plugins/err-example/templates]
+2021-08-28 21:10:20,399 DEBUG    errbot.botplugin          Init storage for Example.
+2021-08-28 21:10:20,399 DEBUG    errbot.storage            Opening storage 'Example'
+2021-08-28 21:10:20,399 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/Example.db
+2021-08-28 21:10:20,399 DEBUG    errbot.core               Adding command : tryme -> tryme.
+2021-08-28 21:10:20,399 INFO     errbot.core_plugins.wsview Checking Example for webhooks
+2021-08-28 21:10:20,399 DEBUG    errbot.plugin_manager     Activate flow plugins ...
+2021-08-28 21:10:20,399 INFO     errbot.core               Notifying connection to all the plugins...
+2021-08-28 21:10:20,399 DEBUG    errbot.core               Trigger callback_connect on ACLS.
+2021-08-28 21:10:20,399 DEBUG    errbot.core               Trigger callback_connect on Backup.
+2021-08-28 21:10:20,399 DEBUG    errbot.core               Trigger callback_connect on ChatRoom.
+2021-08-28 21:10:20,399 INFO     errbot.plugins.ChatRoom   Connecting bot chatrooms
+2021-08-28 21:10:20,399 DEBUG    errbot.core               Trigger callback_connect on CommandNotFoundFilter.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on Flows.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on Health.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on Help.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on Plugins.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on TextModeCmds.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on Utils.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on Dados.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Trigger callback_connect on Example.
+2021-08-28 21:10:20,400 INFO     errbot.core               Plugin activation done.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on ACLs.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Backup.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on ChatRoom.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Flows.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Health.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Help.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Plugins.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on TextCmds.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Utils.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Dados.
+2021-08-28 21:10:20,400 DEBUG    errbot.core               Triggering callback_presence on Example.
+2021-08-28 21:10:22,511 DEBUG    errbot.core               Triggering callback_presence on ACLs.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Backup.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on ChatRoom.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on CommandNotFoundFilter.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Flows.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Health.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Help.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Plugins.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on TextCmds.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Utils.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Dados.
+2021-08-28 21:10:22,512 DEBUG    errbot.core               Triggering callback_presence on Example.
+2021-08-28 21:10:22,512 DEBUG    errbot.backends.text      Trigger disconnect callback
+2021-08-28 21:10:22,512 INFO     errbot.core               Disconnect callback, deactivating all the plugins.
+2021-08-28 21:10:22,526 DEBUG    errbot.storage            Closed storage 'ACLs'
+2021-08-28 21:10:22,526 DEBUG    errbot.core               Removing command filter: acls
+2021-08-28 21:10:22,535 DEBUG    errbot.storage            Closed storage 'Backup'
+2021-08-28 21:10:22,542 DEBUG    errbot.storage            Closed storage 'ChatRoom'
+2021-08-28 21:10:22,548 DEBUG    errbot.storage            Closed storage 'CommandNotFoundFilter'
+2021-08-28 21:10:22,548 DEBUG    errbot.core               Removing command filter: cnf_filter
+2021-08-28 21:10:22,556 DEBUG    errbot.storage            Closed storage 'Flows'
+2021-08-28 21:10:22,562 DEBUG    errbot.storage            Closed storage 'Health'
+2021-08-28 21:10:22,568 DEBUG    errbot.storage            Closed storage 'Help'
+2021-08-28 21:10:22,574 DEBUG    errbot.storage            Closed storage 'Plugins'
+2021-08-28 21:10:22,584 DEBUG    errbot.storage            Closed storage 'TextCmds'
+2021-08-28 21:10:22,590 DEBUG    errbot.storage            Closed storage 'Utils'
+2021-08-28 21:10:22,596 DEBUG    errbot.storage            Closed storage 'Dados'
+2021-08-28 21:10:22,603 DEBUG    errbot.storage            Closed storage 'Example'
+2021-08-28 21:10:22,603 DEBUG    errbot.backends.text      Trigger shutdown
+2021-08-28 21:10:22,609 DEBUG    errbot.storage            Closed storage 'text_backend'
+2021-08-28 21:10:22,609 INFO     errbot.plugin_manager     Shutdown.
+2021-08-28 21:10:22,615 DEBUG    errbot.storage            Closed storage 'core'
+2021-08-28 21:10:22,615 INFO     errbot.plugin_manager     Bye.
+2021-08-28 21:10:22,621 DEBUG    errbot.storage            Closed storage 'repomgr'
+2021-08-28 21:10:22,621 INFO     errbot.cli                Process exiting
