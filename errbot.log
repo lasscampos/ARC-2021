@@ -631,3 +631,15 @@
 2021-08-28 01:28:49,149 DEBUG    errbot.core               Triggering callback_presence on Utils.
 2021-08-28 01:28:49,149 DEBUG    errbot.core               Triggering callback_presence on Dados.
 2021-08-28 01:28:49,149 DEBUG    errbot.core               Triggering callback_presence on Example.
+2021-08-28 01:34:24,612 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2021-08-28 01:34:24,617 INFO     errbot.bootstrap          Found Backend plugin: Text
+2021-08-28 01:34:24,617 DEBUG    errbot.storage            Opening storage 'repomgr'
+2021-08-28 01:34:24,618 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/repomgr.db
+2021-08-28 01:34:58,587 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2021-08-28 01:34:58,593 INFO     errbot.bootstrap          Found Backend plugin: Text
+2021-08-28 01:34:58,594 DEBUG    errbot.storage            Opening storage 'repomgr'
+2021-08-28 01:34:58,594 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/repomgr.db
+2021-08-28 01:36:40,077 INFO     errbot.bootstrap          Found Storage plugin: Shelf.
+2021-08-28 01:36:40,081 INFO     errbot.bootstrap          Found Backend plugin: Text
+2021-08-28 01:36:40,082 DEBUG    errbot.storage            Opening storage 'repomgr'
+2021-08-28 01:36:40,082 DEBUG    errbot.storage.shelf      Open shelf storage /workspace/ARC-2021/data/repomgr.db
