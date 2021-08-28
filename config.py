@@ -1,20 +1,16 @@
 import logging
-from os import environ
-from dotenv import load_dotenv
-load_dotenv()
 
+# This is a minimal configuration to get you started with the Text mode.
+# If you want to connect Errbot to chat services, checkout
+# the options in the more complete config-template.py from here:
+# https://raw.githubusercontent.com/errbotio/errbot/master/errbot/config-template.py
 
-BACKEND = 'Discord'
-BOT_IDENTITY = {
- 'token': environ.get('DISCORD_TOKEN')
-}
-BOT_ADMINS = (environ.get('BOT_ADMIN'), )
-BOT_PREFIX = '!'
-BOT_PREFIX_OPTIONAL_ON_CHAT = True
+BACKEND = 'Text'  # Errbot will start in text mode (console only mode) and will answer commands from there.
 
-BOT_DATA_DIR = r'data'
-BOT_EXTRA_PLUGIN_DIR = r'plugins'
-BOT_EXTRA_BACKEND_DIR= r'err-backend-discord'
+BOT_DATA_DIR = r'/workspace/ARC-2021/data'
+BOT_EXTRA_PLUGIN_DIR = r'/workspace/ARC-2021/plugins'
 
-BOT_LOG_FILE = r'errbot.log'
+BOT_LOG_FILE = r'/workspace/ARC-2021/errbot.log'
 BOT_LOG_LEVEL = logging.DEBUG
+
+BOT_ADMINS = ('@CHANGE_ME', )  # !! Don't leave that to "@CHANGE_ME" if you connect your errbot to a chat system !!
