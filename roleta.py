@@ -1,5 +1,7 @@
 import discord
 import random
+from dotenv import load_dotenv
+load_dotenv()
 
 intents = discord.Intents.default()
 intents.members = True
@@ -38,4 +40,4 @@ async def on_message(message):
         if(choice == 2):
             await canal.send(user + "Você ta morto")
 
-client.run("ODgxMjkzOTQzMTYwMDQ5NzU2.YSqu8Q.QeSdgAPADjIGWWWqQjYC6VfYbpI")
+client.run(environ.get('DISCORD_TOKEN'))
