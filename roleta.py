@@ -1,3 +1,4 @@
+from os import environ
 import discord
 import random
 from dotenv import load_dotenv
